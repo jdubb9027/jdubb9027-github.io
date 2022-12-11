@@ -122,7 +122,28 @@ p {
 
 .project-container {
     margin-bottom: 50px;
+    margin-top: 250px;
 }
+
+.projects-details {
+    margin: 50px auto 200px auto;
+    padding: 100px 5rem 0px 5rem;
+}
+
+.chess-project {
+    width: 100%;
+    margin-right: 30px;
+    float: left;
+}
+
+#top-fullBoard {
+    float: right;
+}
+
+#magnet {
+    margin-left: 10rem;
+}
+
 
 /****** horizontal line decoration start ******/
 .hr-top {
@@ -274,6 +295,16 @@ when given width is equal to or more */
 
     #innovative-heading {
         padding-left: 1rem;
+    }
+
+    .chess-project {
+        padding-left: 1rem;
+        width: 323.2px;
+        height: 307.2px;
+    }
+
+    #magnet {
+        margin: 0;
     }
 
 }

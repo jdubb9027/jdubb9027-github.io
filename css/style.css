@@ -144,6 +144,22 @@ p {
     margin-left: 10rem;
 }
 
+/* .pi-garden {
+    width: 20%;
+} */
+
+#stacked{
+    float: left;
+}
+
+#mixer{
+    float: right;
+}
+
+#motor {
+    float: right;
+}
+
 
 /****** horizontal line decoration start ******/
 .hr-top {
@@ -201,6 +217,11 @@ p {
   }
 /****** horizontal line decoration end ******/
 
+/*** HIDES 'CHECK IT OUT' BTN  ***/
+.project-link {
+    visibility: hidden;
+}
+
 .bottom-container {
     padding-top: 2rem;
     background-color: #93FFD8;
@@ -257,8 +278,24 @@ p {
 /* max-width will apply media query 
 when given width is equal to or less */
 @media (max-width: 421px) {
+
+}
+
+@media (max-width: 768px) {
     #mountain {
-        width: 100%;
+        display: none;
+    }
+
+    .project-img {
+        width: 75%;
+    }
+
+    .chess-project {
+        width: 60%;
+    }
+
+    #magnet {
+        margin-left: auto;
     }
 }
 
@@ -307,16 +344,21 @@ when given width is equal to or more */
         margin: 0;
     }
 
+    .pi-garden {
+        width: 50%;
+    }
+    
+
 }
 
 @media (min-width: 1440px) {
     #top-cloud {
-        bottom: 30rem;
+        /* bottom: 30rem; */
         width: 10%;
     }
 
     #bottom-cloud {
-        bottom: 45rem;
+        /* bottom: 45rem; */
         width: 10%;
     }
     
@@ -341,4 +383,9 @@ when given width is equal to or more */
         width: 90.0rem;
         height: 37.85rem;
     }
+
+    .pi-garden {
+        width: 30%;
+    }
+
 }

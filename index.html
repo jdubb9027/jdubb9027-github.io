@@ -21,7 +21,8 @@
         <section class="heading">
             <img src="images/cloud.png" id="top-cloud" alt="cloud-img">
             <h1 id="introduction">I'm John.</h1>
-            <h2 id="sub-heading">A Maker, <span id="pro">pro</span>grammer, & Student.</h2>
+            <h2 id="sub-heading">A Maker, Programmer, Engineer</h2>
+            <h2 id="sub-heading">Father, Artist & Overall Student of Life.</h2>
             <img src="images/cloud.png" id="bottom-cloud" alt="cloud-img">
             <img src="images/mountain.png" id="mountain" alt="moutain-img">
         </section>
@@ -32,20 +33,17 @@
             <img id="profile-pic" src="images/profile-one.jpg" alt="Profile picture">
             <h2>Hello.</h2>
             <p id="profile-para">I am currently a student at Delaware County Community College and graduate in May 2022
-                with my Associates in Engineering.
-                I love coffee and it is even better in the outdoors watching the sunrise over a misty morning. Getting
-                my degree in engineering and working
-                in computer or A.I./Machine Learning fields are my main focus in life. I have interests in RC planes,
-                cars, and boats I love to tinker and take
-                things apart and figure out how things work or do what I can to make them "better" or more efficient. I
-                am always trying to get more information
-                and knowledge on as much as I can from coding, basic circuit analysis, Machine Learning and A.I.,
-                computer security, as well as have studied and
-                played as amatuer poker player for two years. I also am an artist and love to draw mostly with graphite
-                or charcoal but would like to get into
-                painting with acrylics. I am also an amatuer gardener mostly vegetables and as with everything else
-                cannot help myself but to add electronics
-                to my garden so I am researching starting a aquaponics set up in my home to start.</p>
+                with my Associates in Engineering. Aquiring my degree in engineering and supporting my son 
+                are my main focus in life. My dream career would be working in the A.I./Machine Learning field creating "things"
+                that will improve on the quality of life of society as a whole, not just do tasks that make our everyday lives easier. 
+                I have interests in anything RC mostly planes and submarines as this allows me to create and learn on a large array of subjects
+                from A.I. with the auto-pilot to aesthetics and the communication of the electronics. I have always loved to tinker and take
+                things apart to figure out how things work and how they are able to do what they do, and how they can be "better" or more efficient. 
+                I am always trying to learn more and gain more knowledge on as much as I can from coding, basic circuit analysis, Machine Learning and A.I.,
+                computer security, and so much more. I also am an artist and love to draw mostly with graphite or charcoal. I also am learning airbrushing
+                at the moment mostly doing body painting but would like to expand on that and would like to get into painting with acrylics. I have recently
+                gotten into gardening mostly vegetables and as with everything else cannot help myself but to add electronics to my garden.
+                I am researching starting an aquaponics set up in my home...atleast to start. Plus I love coffee and it is even better in the outdoors.</p>
         </section>
 
         <div class="astrodivider hr-top" id="top-2-middle">
@@ -136,32 +134,39 @@
                     <h3 class="project-title">Pi Garden</h3>
                     <p class="projects-details">
                         My Pi-Garden is an ongoing project that I am always updating and making more efficient or
-                        adding functionality. I have an indoor garden and it can take alot of work and attention
+                        adding functionality to. I have an indoor garden and it can take alot of work and attention
                         to get the plants to grow and prosper. With modern life it can be hard to find the time to make
                         sure all the love and attention is given to all the plants. My first simple iteration was with
-                        an arduino it measured soil moisture, temperature and humidity, and watered the plant with small
-                        pump and 3D printed watering disk. I also designed and printed an enclosed water tank that had a
-                        motor on the top cylinder attached to it was a shaft and mixer that would mix any nutrients that
-                        was in the water before being pumped to the plant. Also, because the tank was enclosed and the
-                        pumps used needed water in them for them to work the tank was airtight enough when top cylinder
-                        was
-                        slide on top that as the water level dropped the cylinder would slide down to equalize air
-                        pressure.
-                        This allowed for water to always remain in the pump after being turned off and infact helped
-                        push the
-                        water up to the pot which was about 1 1/2ft - 2ft above the pump and tank. The new iteration
-                        will have
-                        the same functionality as the arduino based but with the Rpi will have wifi and BLT capability
-                        as well
-                        as being able to measure and add a 3 part nutrient system when needed instead of having it
-                        premixed and
-                        possibly build up bacteria that could harm the plants instead of helping also monitor water Ph.
-                        This
-                        information will all be available online because of the wifi on the Rpi. With the added power I
-                        will also
-                        connect intake and outtake fans so the system can control the temperature and humidity within
-                        the grow space
-                        by controlling the fans individual speeds.
+                        an arduino it measured soil moisture, temperature and humidity, and watered the plants with a small
+                        water pump some tubing and 3D printed watering disks that would spike into the ground and encircle the
+                        stem of the plants.<img class="pi-garden" id="mixer" src="images/H2O tank nute mixer.JPG"> I had realized I had an issue though during the setup and initial run of the water pump
+                        because the plants were couple feet above the pump and that I wanted the water tank to be closed off from 
+                        outside air and contaminants as the water was pumped up and out a vacumn would be created in the tank and 
+                        stop the pump from working plus putting significant stress on the motor and componets of the pump because of
+                        back pressure and it fighting the vacumn. My solution to this was to create a dynamic tank that would change its
+                        pressure as the water volume changed. I accomplished this by 3D printing two halves of a cylinder the bottom would be
+                        the water tank but the top half of the cylinder is slightly larger to create an air tight seal when top half is placed on bottom
+                        and acts as the dynamic part of the system.<img class="pi-garden" id="stacked" src="images/Stacked water tank.JPG"> 
+                        The way it works is simple when the tank is filled with water it sits like in the picture of the stacked halves but 
+                        when the water starts to be pumped out of tank and the vacumn is created instead of fighting the pump 
+                        it pulls the top cylinder down creating a stable pressure again this also acts as a crude way of knowing when to refill the water.
+                        As can be seen in the bottom picture and from the other pictures this is a motor installed at the top of the tank that goes through
+                        the center of the top half and is attached to a shaft with a mixer I designed that is programmed to turn on shortly before the pump
+                        so it can mix up any nutrients/fetilizer that has settled at the bottom of the tank. I used an old cheap drone motor that was geared 
+                        to power the mixer as it takes a significant amount of force to spin the shaft against the drag of the water as by design its created
+                        to not be streamline to completely mix solution. This ability to always keep constant pressure allowed for water to always remain in 
+                        the pump after being turned off which infact helped push the water up to the garden which was about 1.5ft - 2ft above the pump and tank. 
+                        The new iteration will have <img class="pi-garden" id="motor" src="images/H2O tank motor.JPG"> the same functionality as the arduino based 
+                        but the Rpi-Garden will give the benefits of wifi and BLE capability allowing access to data and control of system
+                        anywhere with the setup of a web server controller. In the first iteration the nutrients was added and measured manually which sat in tank
+                        until it was needed which could be days and sometimes we do not want the nutrients but pH neutral water which would mean wasting the nutrient 
+                        solution that had been mixed. With the Pi-Garden plan to add a 3 part nutrient system using peristaltic pumps to added exact quantites when needed 
+                        instead of having it premixed and possibly build up bacteria that could harm the plants instead of helping with this I also plan a monitoring
+                        system for the water pH. The Rpi gives an added ability of a "brain" so I can code a program to monitor temp. and humididty as well as
+                        control intake and outtake fans connected to the system to have complete control of enviorment inside the grow space by simply
+                        controlling the fans individual speeds to bring more or less fresh air into the space. The Garduino based system was all done on a breadboard as I
+                        said with a Nano as a proof of concept the 2nd iteration I plan to create a circuit board to assist with running everything along with the Pi. 
+                        As I start building the 2nd iteration with the Rpi and put it into use I will post pictures of the build and componets I use.
                     </p>
                     <a href="#" target="_blank" class="btn project-link">Check it Out</a>
                 </div>
@@ -170,8 +175,8 @@
                     <img class="project-img" src="images/racing_drone.jpg" loading="lazy" alt="Racing Drone">
                     <h3 class="project-title">Own Open Source Teensy Flight Controller</h3>
                     <p class="projects-details">
-                        This is my most recent project and I am still in the process of building the plane that the
-                        teensy will be controlling
+                        This is my most recent project and I am still in the process of 3D printing the plane that the
+                        teensy will be controlling will update when finish plane build and starting with electronics.
                         so more to come.
                     </p>
                     <a href="#" target="_blank" class="btn project-link" id="last-projectBtn">Check it Out</a>

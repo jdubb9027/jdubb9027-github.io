@@ -144,10 +144,6 @@ p {
     margin-left: 10rem;
 }
 
-/* .pi-garden {
-    width: 20%;
-} */
-
 #stacked{
     float: left;
 }
@@ -385,7 +381,15 @@ when given width is equal to or more */
     }
 
     .pi-garden {
-        width: 30%;
+        width: 20%;
+    }
+
+    #mixer{
+        width: 15%;
+    }
+    
+    #motor {
+        width: 15%;
     }
 
 }

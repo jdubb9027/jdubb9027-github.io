@@ -272,12 +272,6 @@ p {
     padding-bottom: 10px;
 }
 
-/* max-width will apply media query 
-when given width is equal to or less */
-@media (max-width: 421px) {
-
-}
-
 @media (max-width: 768px) {
     #mountain {
         display: none;
@@ -309,6 +303,25 @@ when given width is equal to or less */
         width: 60%;
         margin: 0 auto;
         float: none;
+    }
+
+}
+
+/* max-width will apply media query 
+when given width is equal to or less */
+@media (max-width: 421px) {
+    .projects-details {
+        padding: 0;
+        white-space: no-wrap;
+    }
+
+    .chess-project {
+        width: 100%;
+    }
+
+    #profile-pic {
+        margin-top: 9rem;
+        width: 40%;
     }
 
 }

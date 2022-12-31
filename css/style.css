@@ -16,6 +16,7 @@ h1 {
     font-size: 6rem;
     line-height: 2;
     color: #7700ffaf;
+    
 }
 
 h2 {
@@ -24,6 +25,8 @@ h2 {
     font-size: 2.5rem;
     font-weight: normal;
     color: #7700ffaf;
+    position: relative;
+
 }
 
 h3 {
@@ -48,11 +51,13 @@ p {
 #top-cloud {
     position: absolute;
     top: 12rem;
+
 }
 
 #bottom-cloud {
     position: absolute;
     left: 5rem;
+
 }
 
 #pro {
@@ -138,10 +143,6 @@ p {
 
 #top-fullBoard {
     float: right;
-}
-
-#magnet {
-    margin-left: 10rem;
 }
 
 #stacked{
@@ -282,17 +283,34 @@ when given width is equal to or less */
         display: none;
     }
 
+    img {
+        width: 100%;
+    }
+
+    #top-cloud {
+        width: 30%;
+    
+    }
+    
+    #bottom-cloud {
+        width: 30%;
+    
+    }
+
+    #profile-pic {
+        width: 20%;
+    }
+
     .project-img {
         width: 75%;
     }
 
     .chess-project {
         width: 60%;
+        margin: 0 auto;
+        float: none;
     }
 
-    #magnet {
-        margin-left: auto;
-    }
 }
 
 /* min-width will apply media query 

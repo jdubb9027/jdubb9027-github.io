@@ -348,13 +348,11 @@ when given width is equal to or more */
 
     .code-img {
         padding-left: 1rem;
-        width: 323.2px;
-        height: 307.2px;
+        width: 20%;
     }
 
     .innovative-img {
-        width: 327.2px;
-        height: 307.2px;
+        width: 20%;
     }
 
     #innovative-heading {
@@ -363,8 +361,7 @@ when given width is equal to or more */
 
     .chess-project {
         padding-left: 1rem;
-        width: 323.2px;
-        height: 307.2px;
+        width: 50%;
     }
 
     #magnet {
